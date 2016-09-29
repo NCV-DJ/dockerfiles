@@ -39,6 +39,7 @@ RUN set -x \
         && rm tomcat.tar.gz*
 #add war file
 
+
 ADD samplejava.war $CATALINA_HOME/webapps/
 
 #add user in manager page
